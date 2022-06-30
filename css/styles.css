@@ -1,0 +1,87 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: rgba(234, 222, 90, 0.6);
+}
+
+h1,h2{
+    padding: 20px 0;
+    text-align: center;
+    text-shadow: -2px 2px 7px rgb(16, 143, 255);
+}
+hr{
+   border-style: unset;
+   border-top: 5px solid rgba(16, 143, 255, 0.9);
+   box-shadow: -1px 2px 5px rgba(16, 143, 255, 0.5);;
+   width: 10%;
+   border-radius: 15px;
+   margin: 30px auto;
+}
+/* main-container */
+.container{
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+
+/* image container */
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-container img{
+    width: 40%;
+    height: 20%;
+    padding-bottom: 20px;
+    border-radius: 7%;
+}
+figcaption{
+    padding: 10px 0;
+    font-style: oblique;
+}
+
+/* description of recipe container, contains lists */
+
+.ingridients-container {
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+
+
+.description-container {
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+
+ul{
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    line-height: 1.2em;
+    text-align: left;
+
+}
+footer{
+    display: block;
+    padding-bottom: 15px;
+}
+
+footer p{
+    font-style: oblique;
+    text-align: center;
+}
